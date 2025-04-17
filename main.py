@@ -3,12 +3,13 @@ from discord.ext import commands, tasks
 import sqlite3
 import json
 import asyncio
+import os
 
 # Load config
 with open("config.json") as f:
     config = json.load(f)
 
-TOKEN = config["token"]
+TOKEN = os.getenv("token")
 PREFIX = config["prefix"]
 LEVEL_ROLES = config["level_roles"]
 BLACKLISTED_CHANNELS = config["blacklist_channels"]
