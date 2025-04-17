@@ -1,0 +1,12 @@
+{
+  "token": "MTM2MjI5NjYxNDU1MDYzNDU2OA.GDbAU2.iFtz5CInKLtqR97tXaM5_BqOHILrHrQQRs_CKI",
+  "prefix": "!",
+  "cooldown": 60,
+  "blacklist_channels": ["1258378712303276072", "1258304967677055050"],
+  "level_roles": {
+    "1": 1362193268011569244,
+    "10": 1362194292105547899,
+    "20": 1362194471936200885,
+    "35": 1362194772776714401
+  }
+}
