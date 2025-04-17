@@ -111,5 +111,6 @@ async def leaderboard(ctx):
         name = user.display_name if user else "Unbekannt"
         text += f"{i}. {name} – Level {lvl}\n"
     await ctx.send(text)
-
+    
+print(f"TOKEN (env): {TOKEN}")
 bot.run(TOKEN)
