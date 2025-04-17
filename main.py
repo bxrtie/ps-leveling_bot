@@ -112,5 +112,5 @@ async def leaderboard(ctx):
         text += f"{i}. {name} – Level {lvl}\n"
     await ctx.send(text)
     
-print(f"TOKEN (env): {TOKEN}")
+print("Token geladen.")
 bot.run(TOKEN)
